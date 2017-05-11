@@ -5,7 +5,7 @@ import com.company.specialflights.AbstractFlight;
 /**
  * General base "flight" class.
  */
-public class Flight extends AbstractFlight{
+public class Flight extends AbstractFlight {
     private String origin;
     private String destination;
     private Integer costIndex;

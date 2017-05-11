@@ -6,6 +6,13 @@ import com.company.Flight;
  * Created by adrian on 5/11/17.
  */
 public class ExtendedFlight extends Flight {
+
+    public String getExtraTankDescription() {
+        return "[2 aidditional BIG FUEL TANKS]";
+    }
+
+    private String extraTankDescription = "extra fuel tank";
+
     public ExtendedFlight(String origin, String destination, Integer costIndex) {
         super(origin, destination, costIndex);
     }

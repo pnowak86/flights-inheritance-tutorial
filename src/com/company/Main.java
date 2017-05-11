@@ -19,6 +19,7 @@ public class Main {
         //try to assign specialized instance to more general
         System.out.println("\n-- Example 2 --\n");
         Flight someFlight = fe;
+        fe.getExtraTankDescription();
         System.out.println(someFlight.getFlightDescription());
         //can we call getExtendedRange this way? NO!
         //but look how getFlightDescription worked..
@@ -83,8 +84,8 @@ public class Main {
         //Answer: inherited one!
 
         //note - if you call base calss methods on inheriting classes - such casting is clearly reduntand:
-        System.out.println(((Flight) expFlight).getFlightDescription());
-        System.out.println(((ExtendedFlight) expFlight).getFlightDescription());
+        //System.out.println(((Flight) expFlight).getFlightDescription());
+       // System.out.println(((ExtendedFlight) expFlight).getFlightDescription());
 
         System.out.println("\n-- Example 7 --\n");
 
